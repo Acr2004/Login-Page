@@ -1,0 +1,62 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Variables */
+:root {
+    --container-color: #212121;
+    --card-color: #323232;
+    --main-color: #14FFEC;
+}
+
+/* Default */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Righteous', cursive;
+}
+
+/* Background */
+body {
+    background-color: var(--main-color);
+}
+
+/* Center Container */
+#flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+#container {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 80px;
+    background-color: var(--container-color);
+}
+
+/* Left & Right Side */
+#left {
+    width: 50%;
+    height: 100%;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+/* Card */
+#card {
+    width: 70%;
+    height: 80%;
+    border-radius: 50px;
+    background-color: var(--card-color);
+}

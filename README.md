@@ -10,9 +10,9 @@
 
 ## Project Colors
 
-- **Raisin Black (Main Background):** #212121
-- **Dark Charcoal (Container Background):** #323232
-- **Fluorescent Blue (Button/Text Color):** #14FFEC
+- **Fluorescent Blue (Main Color):** #14FFEC
+- **Raisin Black (Container Background):** #212121
+- **Dark Charcoal (Card Background):** #323232
 
 
 
