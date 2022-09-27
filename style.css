@@ -55,21 +55,27 @@ body {
 
 #title {
     width: 70%;
-    margin: 80px auto 0 auto;
+    margin: 190px auto 0 auto;
 }
 
 #title-1 {
     color: var(--main-color);
-    font-size: 34px;
+    font-size: 42px;
 }
 
 #title-2 {
     color: var(--main-color);
-    font-size: 34px;
+    font-size: 42px;
+}
+
+#logo {
+    width: 100%;
+    margin: 20px 0 0 0;
 }
 
 /* Card */
 #card {
+    position: relative;
     text-align: center;
     width: 70%;
     height: 80%;
@@ -94,7 +100,7 @@ form {
 
 form label {
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 0 5px 10px;
 }
 
@@ -104,12 +110,50 @@ form label {
     color: #FFFFFF;
     background-color: #636363;
     margin: 0 0 20px 0;
+    box-shadow: 0 5px 30px 0 var(--container-color);
+    padding: 0 20px;
+    font-size: 18px;
+    outline: 0;
+}
+
+.input-box:focus {
+    border: 2px solid var(--main-color);
+    box-sizing: border-box;
+}
+
+#social-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    width: 55px;
+    height: 55px;
+    margin: 0 10px;
+    background-color: var(--card-color);
+    box-shadow: 0 0 10px 5px var(--container-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social:hover {
+    border: 2px solid var(--main-color);
+}
+
+.login-images {
+    width: 35px;
+    height: 35px;
 }
 
 #login {
-    margin: 100px 0 0 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 70%;
+    bottom: 60px;
     cursor: pointer;
-    width: 100%;
     height: 50px;
     border-radius: 10px;
     font-size: 16px;
